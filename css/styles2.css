@@ -1,0 +1,308 @@
+/* ===================================== Import Variables ================================== */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+
+/* ======================================== Letras =========================================== */
+/* =========================================================================================== */
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form-login input[type="number"] {
+  margin-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-radius: 10px;
+}
+
+.form-login input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-radius: 10px;
+}
+
+
+.gtn {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-radius: 25px;
+  
+  border: 2px solid rgb(17,141,68);
+  width: 100px;
+  height:50px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255,128,1)0%,
+    rgba(17,141,68,1)100%);
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-family: arial black;
+}
+
+
+
+html{
+  height: 100%;
+  position: relative;
+}
+
+p{
+  font-family: Montserrat;
+  color:rgb(80,80, 160);
+  text-align: justify;
+}
+pc{
+  font-family: Montserrat;
+  color:rgb(80,80, 160);
+  text-align: center;
+}
+.p{
+  font-family: Montserrat;
+  color:rgb(80,80, 160);
+  text-align: justify;
+}
+h1{ /*Letra grande negra centrada*/
+  color:rgb(1,1, 1);
+  font-family: Montserrat;
+  font-size: 150%;
+  text-align: center;
+}
+h2{ /*Letra semi-grande negra justificada*/
+  color:rgb(20,20, 40);
+  font-family: Montserrat;
+  font-size: 120%;
+  text-align: justify;
+}
+h3{ /*Letra blanca normal centrada*/
+  color:rgb(255,255, 255);
+  font-family: Montserrat;
+  font-size: 110%;
+  text-align: center;
+}
+h4{ /*Letra semipequeña blanca para tabla centrado*/
+  color:rgb(255,255, 255);
+  font-family: Montserrat;
+  font-size: 85%;
+  text-align: center;
+}
+h5{ /*Títulos megagrande blancos centrado*/
+  color:rgb(255,255, 255);
+  font-family: Montserrat;
+  font-size: 200%;
+  text-align: center;
+}
+
+h6{ /*Letra blanca normal centrada*/
+  color:rgb(255,255, 255);
+  font-family: Montserrat;
+  font-size: 85%;
+  text-align: center;
+}
+
+h7{ /*Letra blanca normal centrada*/
+  color:rgb(255,255, 255);
+  font-family: Montserrat;
+  font-size: 75%;
+  text-align: center;
+}
+h8{ /*Letra normal verde*/
+  color: rgba(1, 1, 1, 100%);
+  font-family: Montserrat;
+  font-size: 100%;
+  text-align: center;
+}
+h8:hover{
+   color: rgba(25, 135, 84, 100%)
+}
+
+h9{ /*Letra blanca normal derecha*/
+  color:rgb(255,255, 255);
+  font-family: Montserrat;
+  font-size: 70%;
+  text-align: right;
+}
+h10{ /*Letra negra normal centrada*/
+  color:rgb(1,1, 1);
+  font-family: Montserrat;
+  font-size: 110%;
+  text-align: center;
+}
+h11{ /*Letra negra normal centrada*/
+  color:rgb(255,55, 55);
+  font-family: Montserrat;
+  font-size: 100%;
+  text-align: center;
+}
+.a{
+  color: rgb(20,20, 40);
+}
+.b{
+  color: rgb(255,255, 255);
+}
+
+a:hover{
+  color: rgb(35,170,75);
+}
+
+
+/* ===================================== Estructuras ======================================= */
+/* =========================================================================================== */
+
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 75%);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  width: auto;
+
+}
+.grid-containerindex > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 75%);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+
+.footer {
+  grid-area: footer;
+  color: white;
+  background-color: rgba(25, 135, 84, 100%);
+  margin-bottom: -120px;
+  margin-top: 20px;
+  padding-top: 20px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: Montserrat;
+
+
+
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(255,255, 255);
+  font-family: Montserrat;
+  color: rgb(20,20, 40);
+  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.main2 {
+  grid-area: main;
+  background-color: rgba(1,1, 1, 100%);
+  mix-blend-mode: screen;
+
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #F1F1F1;
+  padding: 40px 20px 40px 20px;
+  text-align: center;
+
+}
+.main3 {
+  grid-area: main;
+  background-color: #f5f5f5;
+  font-family: Montserrat;
+  color: rgb(20,20, 40);
+  padding: 40px 20px 40px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.main4 {
+  grid-area: main;
+  background-color: rgb(255,255, 255);
+  font-family: Montserrat;
+  color: rgb(20,20, 40);
+  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+/* =================================== Tamaños de recuadros ================================== */
+/* =========================================================================================== */
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template:
+    "header"  100px
+    "navbar"  50px
+    "main"    auto
+    "sidebar" 100px
+    "footer"  100px;
+
+  background-image: url(../images/fonditoflores2.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+.grid-containerindex {
+  display: grid;
+  gap: 0px;
+  grid-template:
+    "header"  auto
+    "navbar"  auto
+    "main"    auto
+    "sidebar" auto
+    "footer"  auto;
+
+  background-image: url(../images/fonditoflores2.jpg);
+  background-size: cover;
+}
+
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template:
+      "header  header" 100px
+      "navbar  navbar" 50px
+      "sidebar main"   auto
+      "footer  footer" 100px /
+      200px    auto;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template:
+      "header  header header"  120px
+      "navbar  main   sidebar" auto
+      "footer  footer footer"  90px /
+        15%    auto      15%;
+  }
+}

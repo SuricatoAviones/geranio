@@ -1,0 +1,50 @@
+.footer-style {
+  @media (max-height: 1370px) and (max-width: 1050px) and (min-width: 380px) {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
+
+.redimension {
+  @media (max-width: 910px) {
+    grid-column-start: 1 !important;
+    margin-right: 20px;
+    padding-bottom: 30px;
+  }
+}
+
+.dimensionTablas {
+  @media (max-width: 1450px) {
+    max-width: 92vw !important;
+    margin: 0 auto;
+    padding-bottom: 10px !important;
+  }
+}
+
+.tablas {
+  font-size: 12px;
+  @media (max-width: 950px) {
+    font-size: 10px;
+    display: block;
+    overflow: scroll;
+  }
+}
+
+.dosColumnas {
+  grid-column-start: 1;
+}
+
+.carousel-image {
+  height: 500px;
+  @media (max-width: 600px) {
+    height: 200px;
+  }
+}
+
+.tablita {
+  width: 50%;
+  @media (max-width: 500px) {
+    width: 66%;
+  }
+}
